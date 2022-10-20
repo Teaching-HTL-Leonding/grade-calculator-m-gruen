@@ -18,7 +18,7 @@ if (decision == "Yes" || decision == "yes")
     Console.Write(POINTS_INFO);
     firstTest = int.Parse(Console.ReadLine()!);
 }
-else { possiblePoints =- 20; }
+else { possiblePoints -= 20; }
 Console.Write("Did you participate in the second written exam? [Yes/No] ");
 decision = Console.ReadLine()!;
 if (decision == "Yes" || decision == "yes")
@@ -26,7 +26,7 @@ if (decision == "Yes" || decision == "yes")
     Console.Write(POINTS_INFO);
     secondTest = int.Parse(Console.ReadLine()!);
 }
-else { possiblePoints =- 20; }
+else { possiblePoints -= 20; }
 
 double percent = 100d *((secondTest + firstTest) / possiblePoints);
 
